@@ -1,6 +1,7 @@
 ---
 layout: page
 title: HOME
+permalink: /
 published: true
 ---
 
