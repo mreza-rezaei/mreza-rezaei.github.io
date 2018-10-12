@@ -1,5 +1,4 @@
 ---
-layout: post
 #permalink: /BLOG/2017-11-18-Install-DeepLearning-Platforms-On-Windows/
 published: true
 ---
