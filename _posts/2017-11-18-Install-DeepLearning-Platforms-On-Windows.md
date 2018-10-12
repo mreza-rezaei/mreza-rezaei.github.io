@@ -1,4 +1,5 @@
 ---
+permalink: /BLOG/
 published: true
 ---
 ## Install Tensorflow,Keras and Notebook on Windows
@@ -8,7 +9,7 @@ befor start any procedure you should consider 2 important things:
 - windows is an suitable OS for many engineering tasks but i suggest f you want to work in  [Deep Learning](https://en.wikipedia.org/wiki/Deep_learning)field, it is better to  use ubuntu 17.04 on your computer (  it has good support and easy installtion for required packages )
 
 for working in Deep Leraning field you just need three things:
-1.	[Keras](https://keras.io/) is a high-level neural networks API, written in Python and capable of running on top of [Tensorflow](https://www.tensorflow.org/) , [CNTK](https://github.com/Microsoft/cntk), or [Theano](https://github.com/Theano/Theano). 
+1.	[Keras](https://keras.io/) is a high-level neural networks API, written in Python and capable of running on top of [Tensorflow](https://www.tensorflow.org/) , [CNTK](https://github.com/Microsoft/cntk), or [Theano](https://github.com/Theano/Theano).
 2.	[Tensorflow](https://www.tensorflow.org/)  is an open-source software library for dataflow programming across a range of tasks. It is a symbolic math library, and also used for machine learning applications such as neural networks.
 3.	[Jupyter notebook](http://jupyter.org/) an environment for developing your code in python.
 
