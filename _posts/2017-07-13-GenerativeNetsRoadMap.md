@@ -1,4 +1,5 @@
 ---
+permalink: /BLOG/2017-07-13-GenerativeNetsRoadMap/
 published: false
 ---
 ---
@@ -30,7 +31,7 @@ in this we learn about befor works ,what is Adversial network ,theoretical resul
 advantage and disadvantages ,traning results on some satabases
 
 
-best blog that i find is [openAI](https://blog.openai.com/generative-models/) 
+best blog that i find is [openAI](https://blog.openai.com/generative-models/)
 
 **what I find on it**
 
@@ -38,7 +39,7 @@ there are three approaches to generative nets
 	_1- [Generative Adversial Nets(GANs)](https://arxiv.org/abs/1406.2661)
     _2- [Variational Autoencoders(VAEs) ](https://arxiv.org/abs/1312.6114)
     _3- Autoregressive models
-    
+
 
 **Variational Autoencoders (VAEs)**
 allow us to formalize this problem in the framework of probabilistic graphical models where we are maximizing a lower bound on the log likelihood of the data.

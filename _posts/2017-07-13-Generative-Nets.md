@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: /BLOG/2017-07-13-Generative-Nets/
 published: true
 ---
 # Generative Models
@@ -52,15 +54,13 @@ DCGAN is initialized with random weights, so a random code plugged into the netw
 Variational Autoencoders ([VAEs](https://arxiv.org/abs/1312.6114)) allow us to formalize this problem in the framework of probabilistic graphical models where we are maximizing a lower bound on the log likelihood of the data.
 
 Variational autoencoders (VAEs) were defined in 2013 by Kingma et al. and Rezende et al
- 
+
  Some simulation result with tensorflow
  ![vae1](https://mreza-rezaei.github.io/images/Vae1.png)
  ![vae2](https://mreza-rezaei.github.io/images/Vae2.png)
- 
- 
- 
+
+
+
  # applications
- 
+
  1-[Adversarial-training-and-dilated-convolutions-for-brain-MRI-segmentation](https://arxiv.org/abs/1707.03195)
-
-

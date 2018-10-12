@@ -1,5 +1,5 @@
 ---
-permalink: /BLOG/
+permalink: /BLOG/2017-11-18-Install-DeepLearning-Platforms-On-Windows/
 published: true
 ---
 ## Install Tensorflow,Keras and Notebook on Windows
