@@ -5,7 +5,7 @@ published: false
 ---
 published: false
 ---
-## Generative Adeversial Networks
+## Generative Adversarial Networks
 
 ### Road map for learning Generative Adeversial Networks
 
