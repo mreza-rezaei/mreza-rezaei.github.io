@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /BLOG/2017-07-13-Generative-Nets/
+#permalink: /BLOG/2017-07-13-Generative-Nets/
 published: true
 ---
 # Generative Models
@@ -23,7 +23,7 @@ what is Generative Model:
 In probability and statistics, a generative model is a model for randomly generating observable data values, typically given some hidden parameters. It specifies a joint probability distribution over observation and label sequences. Generative models are used in machine learning for either modeling data directly (i.e.https://arxiv.org/abs/1312.6114, modeling observations drawn from a probability density function), or as an intermediate step to forming a conditional probability density function. A conditional distribution can be formed from a generative model through Bayes' rule.
 
 
-# generative Adversial Network
+# generative Adversarial Network
 
 Generative Adversarial Networks ([GAN](https://arxiv.org/abs/1406.2661)) is a framework for training generative models that use deep neural networks. The approach simultaneously trains a generative model alongside an adversarial discriminative model. The discriminative model tries to determine whether a sample comes from the true data distribution or from the generative model, while the goal of the generative model is to fool the discriminative model.
 

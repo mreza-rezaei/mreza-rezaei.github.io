@@ -4,8 +4,8 @@ published: true
 ---
 ## Install Tensorflow,Keras and Notebook on Windows
 
-befor start any procedure you should consider 2 important things:
-- if you have [GPU](https://en.wikipedia.org/wiki/Graphics_processing_unit) on your laptop or pc from nvidias series, you can use it for accelerating computational tasks(But the main cost is it's difficult installation)
+before start any procedure you should consider 2 important things:
+- if you have [GPU](https://en.wikipedia.org/wiki/Graphics_processing_unit) on your laptop or pc from Nvidias series, you can use it for accelerating computational tasks(But the main cost is it's difficult installation)
 - windows is an suitable OS for many engineering tasks but i suggest f you want to work in  [Deep Learning](https://en.wikipedia.org/wiki/Deep_learning)field, it is better to  use ubuntu 17.04 on your computer (  it has good support and easy installtion for required packages )
 
 for working in Deep Leraning field you just need three things:
