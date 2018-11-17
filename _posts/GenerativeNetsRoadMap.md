@@ -1,5 +1,5 @@
 ---
-permalink: /BLOG/2017-07-13-GenerativeNetsRoadMap/
+permalink: /BLOG/GenerativeNetsRoadMap/
 published: false
 ---
 ---
