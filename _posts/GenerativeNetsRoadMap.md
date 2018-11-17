@@ -1,9 +1,9 @@
 ---
 permalink: /BLOG/GenerativeNetsRoadMap/
-published: false
+published: true
 ---
 ---
-published: false
+published: true
 ---
 ## Generative Adversarial Networks
 
