@@ -1,11 +1,16 @@
 ---
+<<<<<<< HEAD:_posts/GenerativeNetsRoadMap.md
 #permalink: /BLOG/2017-07-13-GenerativeNetsRoadMap/
 published: false
+=======
+permalink: /BLOG/GenerativeNetsRoadMap/
+published: true
+>>>>>>> b8f228198b6977451092a2a4ddba15378ff1477a:_posts/GenerativeNetsRoadMap.md
 ---
 ---
-published: false
+published: true
 ---
-## Generative Adeversial Networks
+## Generative Adversarial Networks
 
 ### Road map for learning Generative Adeversial Networks
 
