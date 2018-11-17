@@ -1,6 +1,6 @@
 ---
 layout: page
-#permalink: /Generative-Nets/
+#permalink: /Blog/Generative-Nets/
 published: true
 ---
 # Generative Models
