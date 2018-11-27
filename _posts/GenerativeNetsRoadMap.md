@@ -1,6 +1,10 @@
 ---
 <<<<<<< HEAD:_posts/GenerativeNetsRoadMap.md
+<<<<<<< HEAD:_posts/GenerativeNetsRoadMap.md
 #permalink: /BLOG/GenerativeNetsRoadMap/
+=======
+permalink: /BLOG/2017-07-13-GenerativeNetsRoadMap/
+>>>>>>> parent of 9a1023e... A:_posts/2017-07-13-GenerativeNetsRoadMap.md
 published: false
 =======
 permalink: /BLOG/GenerativeNetsRoadMap/
