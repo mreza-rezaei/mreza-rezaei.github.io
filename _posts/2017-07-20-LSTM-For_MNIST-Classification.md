@@ -1,5 +1,5 @@
 ---
-permalink: /BLOG/2017-07-20-LSTM-For_MNIST-Classification
+
 published: true
 ---
 
