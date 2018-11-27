@@ -2,7 +2,7 @@
 published: true
 ---
 
-# A Recurrent Neural Network (LSTM) For Digits recogonition in Tensorflow
+# A Recurrent Neural Network (LSTM) For Classification MNIST Dataset in Tensorflow
 
 # Recurrent Networks
 
@@ -51,14 +51,14 @@ print(mnist.test.images.shape)
         - 55,000 data points
         - mnist.train.images for inputs
         - mnist.train.labels for outputs
-
-
+  
+   
 - Validation (mnist.validation) >> The same as training, but now the date is used to generate model properties (classification error, for example) and from this, tune parameters like the optimal number of hidden units or determine a stopping point for the back-propagation algorithm  
         - 5,000 data points
         - mnist.validation.images for inputs
         - mnist.validation.labels for outputs
-
-
+  
+  
 - Test (mnist.test) >> the model does not have access to this informations prior to the test phase. It is used to evaluate the performance and accuracy of the model against "real life situations". No further optimization beyond this point.  
         - 10,000 data points
         - mnist.test.images for inputs
@@ -88,17 +88,17 @@ n_classes = 10 # MNIST total classes (0-9 digits)
 
 It's a best practice to create placeholders before variable assignments when using TensorFlow. Here we'll create placeholders for inputs ("Xs") and outputs ("Ys").   
 
-__Placeholder 'X':__ represents the "space" allocated input or the images.
-
+__Placeholder 'X':__ represents the "space" allocated input or the images. 
+       
        * 1st dimension = None. Indicates that the batch size, can be of any size.  
-       * 2nd dimension = timesteps
+       * 2nd dimension = timesteps 
        * 3nd dimension =MNIST data input (img shape: 28*28)
-
+      
 __Placeholder 'Y':___ represents the final output or the labels.  
        * 10 possible classes (0,1,2,3,4,5,6,7,8,9)  
        * The 'shape' argument defines the tensor size by its dimensions.  
        * 1st dimension = None. Indicates that the batch size, can be of any size.   
-       * 2nd dimension = 10. Indicates the number of targets/outcomes
+       * 2nd dimension = 10. Indicates the number of targets/outcomes 
 
 __dtype for both placeholders:__ if you not sure, use tf.float32. The limitation here is that the later presented softmax function only accepts float32 or float64 dtypes. For more dtypes, check TensorFlow's documentation <a href="https://www.tensorflow.org/versions/r0.9/api_docs/python/framework.html#tensor-types">here</a>
 
@@ -162,7 +162,7 @@ The following code shows an toy sample of cross-entropy for a mini-batch of size
 
 #### Define the optimizer
 
-It is obvious that we want minimize the error of our network which is calculated by cross_entropy metric. To solve the problem, we have to compute gradients for the loss (which is minimizing the cross-entropy) and apply gradients to variables. It will be done by an optimizer: GradientDescent or Adagrad.
+It is obvious that we want minimize the error of our network which is calculated by cross_entropy metric. To solve the problem, we have to compute gradients for the loss (which is minimizing the cross-entropy) and apply gradients to variables. It will be done by an optimizer: GradientDescent or Adagrad. 
 
 #### Define prediction
 Do you want to know how many of the cases in a mini-batch has been classified correctly? lets count them.
